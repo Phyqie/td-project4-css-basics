@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    font-family:"Heebo",sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ********NAV********* */
+nav{
+    background-color: #4D9AAD;
+    /* height: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 122px;
+    padding-right: 122px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+        
+}
+
+nav a{
+    color: white;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-right: 122px;
+    margin-left: 122px;
+    padding: 18px 0;
+
+
+    
+}
+
+nav h1{
+    margin-right: auto;
+
+}
+
+
+/* ********ABOUT********* */
+#my-picture{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+
+.about{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width:500px;
+    text-align: center;
+}
+
+
+/* ********SERVICES********* */
+
+
+.services{
+    margin-top: 80px;
+
+}
+
+.services>h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 600px;
+    
+}
+
+
+.box{
+    width:240px;
+    background-color: #324a50;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+}
+
+.box>h2{
+    margin-bottom: 18px;
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+        
+/* ********CONTACT********* */
+
+.contact{
+    margin-top: 90px;
+     background-color: #157293;
+     color: white;
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+
+}
+
+.contact>:first-child{
+    font-size: 24px;
+    margin-bottom: 18px;
+
+}
+
+.social-icon>a{
+font-size: 45px;
+margin-left:18px;
+
+}
+
+.fa-brands,.fa-envelope{
+    color: #e310cb;
+}
+
+.contact>:last-child{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 50px;
+}
